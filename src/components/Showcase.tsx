@@ -81,7 +81,7 @@ export default function Showcase() {
         <div className="flex justify-center">
           <img
             ref={imageRef}
-            src="/car.png"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/car.png`}
             alt="McLaren 720S Showcase"
             className="w-[300px] sm:w-[400px] md:w-[500px] object-contain drop-shadow-[0_0_80px_rgba(80,80,200,0.1)] will-change-transform"
             draggable={false}

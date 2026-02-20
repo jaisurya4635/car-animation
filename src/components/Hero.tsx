@@ -176,7 +176,7 @@ export default function Hero() {
         <div className="relative z-20 w-full flex justify-center px-4">
           <img
             ref={carRef}
-            src="/car.png"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/car.png`}
             alt="McLaren 720S Top View"
             className="w-[300px] sm:w-[450px] md:w-[550px] lg:w-[650px] xl:w-[750px] object-contain drop-shadow-[0_0_60px_rgba(100,100,255,0.15)] will-change-transform"
             draggable={false}
