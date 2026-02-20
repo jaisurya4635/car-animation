@@ -1,4 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Car Scroll Animation
+
+A premium scroll-based car animation built with **Next.js**, **GSAP**, and **Tailwind CSS**. Features smooth intro animations, scroll-driven motion, and animated statistics.
+
+## Features
+
+- **Hero Section** — Letter-spaced "WELCOME ITZFIZZ" headline with staggered reveal animation
+- **Scroll-Based Car Animation** — Car image moves, rotates, and scales tied to scroll position using GSAP ScrollTrigger
+- **Animated Statistics** — Impact metrics with counter animations and staggered fade-in
+- **Parallax Effects** — Multi-layer parallax on headline, stats, and car image
+- **Features & Showcase Sections** — Scroll-triggered card reveals and split-layout with additional car specs
+- **Smooth Performance** — All animations use GPU-accelerated `transform` properties; no layout reflows
+
+## Tech Stack
+
+- **Next.js** (App Router)
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **GSAP** (ScrollTrigger)
 
 ## Getting Started
 
