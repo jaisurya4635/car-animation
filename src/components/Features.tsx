@@ -72,11 +72,11 @@ export default function Features() {
           Where innovation meets the thrill of the open road
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 place-items-center">
           {features.map((feature, i) => (
             <div
               key={i}
-              className="feature-card group relative p-8 rounded-2xl border border-gray-800 bg-gradient-to-b from-gray-900/50 to-transparent hover:border-gray-600 transition-all duration-500"
+              className="feature-card group relative p-8 rounded-2xl border border-gray-800 bg-gradient-to-b from-gray-900/50 to-transparent hover:border-gray-600 transition-all duration-500 text-center flex flex-col items-center"
             >
               <div className="text-4xl mb-6">{feature.icon}</div>
               <h3 className="text-xl font-semibold text-white mb-3">
